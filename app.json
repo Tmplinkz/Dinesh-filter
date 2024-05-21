@@ -45,7 +45,8 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "required": false
+            "value": "https://telegra.ph/file/3c93894131479f8e187c7.jpg https://telegra.ph/file/741d4e8cc2db9566e785e.jpg https://telegra.ph/file/d2cd3901cb8417b72df5c.jpg",
+            "required": true
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
@@ -54,11 +55,13 @@
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
-            "required": false
+            "value": "5090146108",
+            "required": true 
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "required": false
+            "value": "-1001846235856"
+            "required": true
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
